@@ -1,0 +1,69 @@
+@import "./global.css";
+
+.img-para {
+  position: absolute;
+  top: 46%;
+  left: 35%;
+}
+@media screen and (min-width: 750px) {
+  .img-para {
+    top: 45%;
+    left: 38%;
+  }
+}
+@media screen and (min-width: 950px) {
+  .img-para {
+    top: 45%;
+    left: 42%;
+  }
+}
+.img-para h1 {
+  background-color: #000;
+  color: #fff;
+  display: inline;
+  padding: 4px;
+  opacity: 0.6;
+}
+.img-para p {
+  font-size: 1.8em;
+  color: #fff;
+  display: inline;
+}
+.img-header {
+  position: relative;
+}
+main h2 {
+  padding: 50px 0 30px;
+}
+hr {
+  outline: 1px solid rgb(185, 185, 185);
+  margin-bottom: 30px;
+}
+.gallery-details {
+  width: 100%;
+}
+@media screen and (min-width: 750px) {
+  .gallery-details {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 950px) {
+  .gallery-details {
+    width: 25%;
+  }
+}
+article .gallery-details {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+article h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
